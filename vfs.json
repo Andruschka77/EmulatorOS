@@ -1,0 +1,117 @@
+{
+  "filesystem": {
+    "/": {"type": "dir"},
+    "/home": {"type": "dir"},
+    "/home/user": {"type": "dir"},
+    "/home/user/documents": {"type": "dir"},
+    "/home/user/documents/work": {"type": "dir"},
+    "/home/user/documents/work/projects": {"type": "dir"},
+    "/home/user/documents/work/projects/python": {"type": "dir"},
+    "/home/user/documents/work/projects/python/main.py": {
+      "type": "file",
+      "content": "print(\"Hello Python Project!\")"
+    },
+    "/home/user/documents/work/projects/javascript": {"type": "dir"},
+    "/home/user/documents/work/projects/javascript/app.js": {
+      "type": "file",
+      "content": "console.log(\"Hello JavaScript!\");"
+    },
+    "/home/user/documents/personal": {"type": "dir"},
+    "/home/user/documents/personal/notes.txt": {
+      "type": "file",
+      "content": "Личные заметки:\n- Купить молоко\n- Позвонить маме"
+    },
+    "/home/user/downloads": {"type": "dir"},
+    "/home/user/downloads/temp": {"type": "dir"},
+    "/home/user/music": {"type": "dir"},
+    "/home/user/music/rock": {"type": "dir"},
+    "/home/user/music/classical": {"type": "dir"},
+    "/home/user/pictures": {"type": "dir"},
+    "/home/user/pictures/vacation": {"type": "dir"},
+    "/home/user/pictures/vacation/beach.jpg": {
+      "type": "file",
+      "content": "[BINARY DATA: beach photo]"
+    },
+
+    "/etc": {"type": "dir"},
+    "/etc/config": {"type": "dir"},
+    "/etc/config/system": {"type": "dir"},
+    "/etc/config/system/settings.json": {
+      "type": "file",
+      "content": "{\n  \"theme\": \"dark\",\n  \"language\": \"ru\",\n  \"autostart\": true\n}"
+    },
+    "/etc/config/network": {"type": "dir"},
+    "/etc/config/network/wifi.conf": {
+      "type": "file",
+      "content": "SSID=MyWiFi\nPassword=secret123"
+    },
+    "/etc/passwd": {
+      "type": "file",
+      "content": "root:x:0:0:root:/root:/bin/bash\nuser:x:1000:1000:User:/home/user:/bin/bash"
+    },
+
+    "/var": {"type": "dir"},
+    "/var/log": {"type": "dir"},
+    "/var/log/system.log": {
+      "type": "file",
+      "content": "2024-01-15 10:30:15 - System started\n2024-01-15 10:31:22 - User logged in"
+    },
+    "/var/log/app.log": {
+      "type": "file",
+      "content": "INFO: Application initialized\nDEBUG: Loading configuration"
+    },
+    "/var/tmp": {"type": "dir"},
+    "/var/tmp/cache": {"type": "dir"},
+
+    "/usr": {"type": "dir"},
+    "/usr/bin": {"type": "dir"},
+    "/usr/bin/python": {
+      "type": "file",
+      "content": "#!/usr/bin/env python3\nprint(\"Python interpreter\")"
+    },
+    "/usr/bin/bash": {
+      "type": "file",
+      "content": "#!/bin/bash\necho \"Bash shell\""
+    },
+    "/usr/lib": {"type": "dir"},
+    "/usr/lib/python3.10": {"type": "dir"},
+    "/usr/lib/python3.10/os.py": {
+      "type": "file",
+      "content": "# OS module implementation"
+    },
+
+    "/tmp": {"type": "dir"},
+    "/tmp/test_file.tmp": {
+      "type": "file",
+      "content": "Временный файл\nМожно удалить"
+    },
+
+    "/root": {"type": "dir"},
+    "/root/.bashrc": {
+      "type": "file",
+      "content": "export PATH=$PATH:/usr/local/bin\nalias ll='ls -la'"
+    },
+
+    "/opt": {"type": "dir"},
+    "/opt/applications": {"type": "dir"},
+    "/opt/applications/myapp": {"type": "dir"},
+    "/opt/applications/myapp/config.ini": {
+      "type": "file",
+      "content": "[database]\nhost=localhost\nport=5432\nname=myapp_db"
+    },
+
+    "/mnt": {"type": "dir"},
+    "/mnt/usb": {"type": "dir"},
+    "/mnt/cdrom": {"type": "dir"},
+
+    "/dev": {"type": "dir"},
+    "/dev/null": {
+      "type": "file",
+      "content": "null device"
+    },
+    "/dev/random": {
+      "type": "file",
+      "content": "random data source"
+    }
+  }
+}
