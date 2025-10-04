@@ -1,4 +1,4 @@
 ls -la
 cd /home
-find notes.txt
-exit
+touch abc.txt
+find abc.txt
